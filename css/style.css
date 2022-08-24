@@ -5,6 +5,13 @@ li {
   list-style: none;
 }
 
+.wrapper {
+  max-width: 1000px;
+  padding: 90px 16px 150px 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /****************
 body
 ****************/
@@ -15,7 +22,7 @@ body {
 }
 
 /****************
- header
+header
 ****************/
 #header {
   width: 100%;
@@ -51,4 +58,35 @@ body {
   color: #fff;
   font-weight: bold;
   font-size: 6.5rem;
+}
+
+/****************
+main
+****************/
+#main #menu {
+  margin-top: 20px;
+}
+#main #menu .section-head {
+  background-image: url(../img/menu.jpg);
+  position: relative;
+}
+#main #menu .section-head h2 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 4.5rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  position: absolute;
+  top: 30%;
+  font-weight: bold;
+}
+#main #menu .fixed-bg {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#main #menu #menu-dt {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
