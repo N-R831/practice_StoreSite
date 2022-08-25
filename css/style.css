@@ -146,6 +146,18 @@ main
   background-size: cover;
   background-position: center;
 }
+#main #about #about-dt ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+#main #about #about-dt ul li {
+  width: 50%;
+  line-height: 2;
+  text-align: left;
+  padding: 2%;
+}
 #main #location {
   margin-top: 20px;
 }

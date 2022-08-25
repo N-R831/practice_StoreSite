@@ -166,6 +166,22 @@ main
             background-position: center;
         }
 
+        #about-dt {
+            ul {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-bottom: 40px;
+
+                li {
+                    width: 50%;
+                    line-height: 2;
+                    text-align: left;
+                    padding: 2%;
+                }
+            }
+        }
+
     }
 
     #location{
