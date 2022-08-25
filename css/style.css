@@ -63,6 +63,12 @@ header
 /****************
 main
 ****************/
+#main h3 {
+  font-size: 2.5rem;
+  display: inline-block;
+  border-bottom: solid 6px #e03131;
+  margin-bottom: 70px;
+}
 #main #menu {
   margin-top: 20px;
 }
@@ -89,4 +95,92 @@ main
 #main #menu #menu-dt {
   display: flex;
   justify-content: center;
+}
+#main #menu #menu-dt .menu-column {
+  width: 50%;
+  padding: 0 45px;
+}
+#main #menu #menu-dt .menu-column dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main #menu #menu-dt .menu-column dt {
+  float: left;
+  width: 87%;
+  text-align: left;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 25px;
+  font-weight: 50;
+}
+#main #menu #menu-dt .menu-column dd {
+  width: 13%;
+  text-align: right;
+  padding-top: 8px;
+}
+#main #menu #menu-dt .menu-column:first-child {
+  border-right: solid 1px #000;
+}
+#main #menu #menu-dt #food dl {
+  margin-bottom: 55px;
+}
+#main #about {
+  margin-top: 20px;
+}
+#main #about .section-head {
+  background-image: url(../img/about.jpg);
+  position: relative;
+}
+#main #about .section-head h2 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 4.5rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  position: absolute;
+  top: 30%;
+  font-weight: bold;
+}
+#main #about .fixed-bg {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#main #location {
+  margin-top: 20px;
+}
+#main #location .section-head {
+  background-image: url(../img/location.jpg);
+  position: relative;
+}
+#main #location .section-head h2 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 4.5rem;
+  filter: drop-shadow(1px 1px 10px #c0c0c0);
+  position: absolute;
+  top: 30%;
+  font-weight: bold;
+}
+#main #location .fixed-bg {
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+#main #location #map-text {
+  text-align: left;
+}
+#main #location #map-text p {
+  margin-bottom: 10px;
+}
+
+/****************
+footer
+****************/
+footer {
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
